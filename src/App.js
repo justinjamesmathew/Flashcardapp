@@ -11,23 +11,33 @@ const FlashCardApp = () => {
     setIsRevealed(!isRevealed);
   };
 
-  const handleSwipe = () => {
-    showRandomWord();
+  const handleSwipe = (direction) => {
+    if (direction === 'left') {
+      showPreviousWord();
+    } else if (direction === 'right') {
+      showNextWord();
+    }
   };
 
   const handlers = useSwipeable({
-    onSwiped: handleSwipe,
+    onSwipedLeft: () => handleSwipe('left'),
+    onSwipedRight: () => handleSwipe('right'),
     preventDefaultTouchmoveEvent: true,
     trackMouse: true,
   });
 
-  const showRandomWord = () => {
-    const randomIndex = Math.floor(Math.random() * wordsData.length);
+  const showNextWord = () => {
+    setCurrentIndex((currentIndex + 1) % wordsData.length);
     setIsRevealed(false);
-    setCurrentIndex(randomIndex);
+  };
+
+  const showPreviousWord = () => {
+    setCurrentIndex((currentIndex - 1 + wordsData.length) % wordsData.length);
+    setIsRevealed(false);
   };
 
   const cardStyle = isRevealed ? { backgroundColor: '#f8f8f8' } : {};
+  const languageFlag = isRevealed ? '🇬🇧' : '🇩🇪';
 
   return (
     <div>
@@ -36,7 +46,10 @@ const FlashCardApp = () => {
       </header>
       <div className="flashcard-container" {...handlers}>
         <div className="flashcard" style={cardStyle} onClick={toggleReveal}>
-          <h2>{isRevealed ? wordsData[currentIndex].english : wordsData[currentIndex].german}</h2>
+          <h2>
+            {isRevealed ? wordsData[currentIndex].english : wordsData[currentIndex].german}
+            <span className="language-flag">{languageFlag}</span>
+          </h2>
         </div>
       </div>
     </div>
