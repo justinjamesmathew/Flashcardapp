@@ -1,42 +1,687 @@
 [
   {
-    "german": "Haus",
-    "english": "house"
+    "category": "Basics",
+    "words": [
+      {
+        "german": "Hallo",
+        "english": "hello"
+      },
+      {
+        "german": "Auf Wiedersehen",
+        "english": "goodbye"
+      },
+      {
+        "german": "Danke",
+        "english": "thank you"
+      },
+      {
+        "german": "Bitte",
+        "english": "please/you're welcome"
+      },
+      {
+        "german": "Ja",
+        "english": "yes"
+      },
+      {
+        "german": "Nein",
+        "english": "no"
+      },
+      {
+        "german": "Entschuldigung",
+        "english": "excuse me/sorry"
+      },
+      {
+        "german": "Guten Morgen",
+        "english": "good morning"
+      },
+      {
+        "german": "Guten Tag",
+        "english": "good day"
+      },
+      {
+        "german": "Gute Nacht",
+        "english": "good night"
+      }
+    ]
   },
   {
-    "german": "Apfel",
-    "english": "apple"
+    "category": "Numbers",
+    "words": [
+      {
+        "german": "eins",
+        "english": "one"
+      },
+      {
+        "german": "zwei",
+        "english": "two"
+      },
+      {
+        "german": "drei",
+        "english": "three"
+      },
+      {
+        "german": "vier",
+        "english": "four"
+      },
+      {
+        "german": "fünf",
+        "english": "five"
+      },
+      {
+        "german": "sechs",
+        "english": "six"
+      },
+      {
+        "german": "sieben",
+        "english": "seven"
+      },
+      {
+        "german": "acht",
+        "english": "eight"
+      },
+      {
+        "german": "neun",
+        "english": "nine"
+      },
+      {
+        "german": "zehn",
+        "english": "ten"
+      },
+      {
+        "german": "hundert",
+        "english": "hundred"
+      },
+      {
+        "german": "tausend",
+        "english": "thousand"
+      }
+    ]
   },
   {
-    "german": "Auto",
-    "english": "car"
+    "category": "Colors",
+    "words": [
+      {
+        "german": "rot",
+        "english": "red"
+      },
+      {
+        "german": "blau",
+        "english": "blue"
+      },
+      {
+        "german": "grün",
+        "english": "green"
+      },
+      {
+        "german": "gelb",
+        "english": "yellow"
+      },
+      {
+        "german": "schwarz",
+        "english": "black"
+      },
+      {
+        "german": "weiß",
+        "english": "white"
+      },
+      {
+        "german": "grau",
+        "english": "gray"
+      },
+      {
+        "german": "braun",
+        "english": "brown"
+      },
+      {
+        "german": "lila",
+        "english": "purple"
+      },
+      {
+        "german": "rosa",
+        "english": "pink"
+      },
+      {
+        "german": "orange",
+        "english": "orange"
+      }
+    ]
   },
   {
-    "german": "Tisch",
-    "english": "table"
+    "category": "Animals",
+    "words": [
+      {
+        "german": "Hund",
+        "english": "dog"
+      },
+      {
+        "german": "Katze",
+        "english": "cat"
+      },
+      {
+        "german": "Vogel",
+        "english": "bird"
+      },
+      {
+        "german": "Pferd",
+        "english": "horse"
+      },
+      {
+        "german": "Kuh",
+        "english": "cow"
+      },
+      {
+        "german": "Schwein",
+        "english": "pig"
+      },
+      {
+        "german": "Schaf",
+        "english": "sheep"
+      },
+      {
+        "german": "Maus",
+        "english": "mouse"
+      },
+      {
+        "german": "Löwe",
+        "english": "lion"
+      },
+      {
+        "german": "Fisch",
+        "english": "fish"
+      },
+      {
+        "german": "Elefant",
+        "english": "elephant"
+      },
+      {
+        "german": "Bär",
+        "english": "bear"
+      }
+    ]
   },
   {
-    "german": "Katze",
-    "english": "cat"
+    "category": "Food",
+    "words": [
+      {
+        "german": "Brot",
+        "english": "bread"
+      },
+      {
+        "german": "Käse",
+        "english": "cheese"
+      },
+      {
+        "german": "Milch",
+        "english": "milk"
+      },
+      {
+        "german": "Wasser",
+        "english": "water"
+      },
+      {
+        "german": "Kaffee",
+        "english": "coffee"
+      },
+      {
+        "german": "Tee",
+        "english": "tea"
+      },
+      {
+        "german": "Ei",
+        "english": "egg"
+      },
+      {
+        "german": "Fleisch",
+        "english": "meat"
+      },
+      {
+        "german": "Obst",
+        "english": "fruit"
+      },
+      {
+        "german": "Gemüse",
+        "english": "vegetables"
+      },
+      {
+        "german": "Apfel",
+        "english": "apple"
+      },
+      {
+        "german": "Kartoffel",
+        "english": "potato"
+      },
+      {
+        "german": "Schokolade",
+        "english": "chocolate"
+      },
+      {
+        "german": "Kuchen",
+        "english": "cake"
+      }
+    ]
   },
   {
-    "german": "Hund",
-    "english": "dog"
+    "category": "Household",
+    "words": [
+      {
+        "german": "Haus",
+        "english": "house"
+      },
+      {
+        "german": "Tisch",
+        "english": "table"
+      },
+      {
+        "german": "Stuhl",
+        "english": "chair"
+      },
+      {
+        "german": "Bett",
+        "english": "bed"
+      },
+      {
+        "german": "Küche",
+        "english": "kitchen"
+      },
+      {
+        "german": "Bad",
+        "english": "bathroom"
+      },
+      {
+        "german": "Fenster",
+        "english": "window"
+      },
+      {
+        "german": "Tür",
+        "english": "door"
+      },
+      {
+        "german": "Lampe",
+        "english": "lamp"
+      },
+      {
+        "german": "Sofa",
+        "english": "sofa"
+      },
+      {
+        "german": "Schrank",
+        "english": "cabinet/wardrobe"
+      },
+      {
+        "german": "Spiegel",
+        "english": "mirror"
+      }
+    ]
   },
   {
-    "german": "Mann",
-    "english": "man"
+    "category": "Clothing",
+    "words": [
+      {
+        "german": "Hemd",
+        "english": "shirt"
+      },
+      {
+        "german": "Hose",
+        "english": "pants/trousers"
+      },
+      {
+        "german": "Kleid",
+        "english": "dress"
+      },
+      {
+        "german": "Schuhe",
+        "english": "shoes"
+      },
+      {
+        "german": "Socken",
+        "english": "socks"
+      },
+      {
+        "german": "Jacke",
+        "english": "jacket"
+      },
+      {
+        "german": "Mantel",
+        "english": "coat"
+      },
+      {
+        "german": "Hut",
+        "english": "hat"
+      },
+      {
+        "german": "Handschuhe",
+        "english": "gloves"
+      },
+      {
+        "german": "Schal",
+        "english": "scarf"
+      },
+      {
+        "german": "Pullover",
+        "english": "sweater"
+      }
+    ]
   },
   {
-    "german": "Frau",
-    "english": "woman"
+    "category": "People",
+    "words": [
+      {
+        "german": "Mann",
+        "english": "man"
+      },
+      {
+        "german": "Frau",
+        "english": "woman"
+      },
+      {
+        "german": "Kind",
+        "english": "child"
+      },
+      {
+        "german": "Mädchen",
+        "english": "girl"
+      },
+      {
+        "german": "Junge",
+        "english": "boy"
+      },
+      {
+        "german": "Familie",
+        "english": "family"
+      },
+      {
+        "german": "Mutter",
+        "english": "mother"
+      },
+      {
+        "german": "Vater",
+        "english": "father"
+      },
+      {
+        "german": "Bruder",
+        "english": "brother"
+      },
+      {
+        "german": "Schwester",
+        "english": "sister"
+      },
+      {
+        "german": "Freund",
+        "english": "friend"
+      },
+      {
+        "german": "Lehrer",
+        "english": "teacher"
+      }
+    ]
   },
   {
-    "german": "Schule",
-    "english": "school"
+    "category": "Places",
+    "words": [
+      {
+        "german": "Stadt",
+        "english": "city"
+      },
+      {
+        "german": "Dorf",
+        "english": "village"
+      },
+      {
+        "german": "Land",
+        "english": "country"
+      },
+      {
+        "german": "Schule",
+        "english": "school"
+      },
+      {
+        "german": "Krankenhaus",
+        "english": "hospital"
+      },
+      {
+        "german": "Restaurant",
+        "english": "restaurant"
+      },
+      {
+        "german": "Supermarkt",
+        "english": "supermarket"
+      },
+      {
+        "german": "Park",
+        "english": "park"
+      },
+      {
+        "german": "Bahnhof",
+        "english": "train station"
+      },
+      {
+        "german": "Flughafen",
+        "english": "airport"
+      },
+      {
+        "german": "Bibliothek",
+        "english": "library"
+      },
+      {
+        "german": "Museum",
+        "english": "museum"
+      }
+    ]
   },
   {
-    "german": "Stadt",
-    "english": "city"
+    "category": "Time",
+    "words": [
+      {
+        "german": "Tag",
+        "english": "day"
+      },
+      {
+        "german": "Woche",
+        "english": "week"
+      },
+      {
+        "german": "Monat",
+        "english": "month"
+      },
+      {
+        "german": "Jahr",
+        "english": "year"
+      },
+      {
+        "german": "Stunde",
+        "english": "hour"
+      },
+      {
+        "german": "Minute",
+        "english": "minute"
+      },
+      {
+        "german": "Sekunde",
+        "english": "second"
+      },
+      {
+        "german": "heute",
+        "english": "today"
+      },
+      {
+        "german": "morgen",
+        "english": "tomorrow"
+      },
+      {
+        "german": "gestern",
+        "english": "yesterday"
+      }
+    ]
+  },
+  {
+    "category": "Weather",
+    "words": [
+      {
+        "german": "Sonne",
+        "english": "sun"
+      },
+      {
+        "german": "Wolke",
+        "english": "cloud"
+      },
+      {
+        "german": "Regen",
+        "english": "rain"
+      },
+      {
+        "german": "Schnee",
+        "english": "snow"
+      },
+      {
+        "german": "Wind",
+        "english": "wind"
+      },
+      {
+        "german": "warm",
+        "english": "warm"
+      },
+      {
+        "german": "kalt",
+        "english": "cold"
+      },
+      {
+        "german": "Gewitter",
+        "english": "thunderstorm"
+      },
+      {
+        "german": "Nebel",
+        "english": "fog"
+      },
+      {
+        "german": "Regenschirm",
+        "english": "umbrella"
+      }
+    ]
+  },
+  {
+    "category": "Common Verbs",
+    "words": [
+      {
+        "german": "sein",
+        "english": "to be"
+      },
+      {
+        "german": "haben",
+        "english": "to have"
+      },
+      {
+        "german": "gehen",
+        "english": "to go"
+      },
+      {
+        "german": "kommen",
+        "english": "to come"
+      },
+      {
+        "german": "machen",
+        "english": "to do/make"
+      },
+      {
+        "german": "sehen",
+        "english": "to see"
+      },
+      {
+        "german": "hören",
+        "english": "to hear"
+      },
+      {
+        "german": "essen",
+        "english": "to eat"
+      },
+      {
+        "german": "trinken",
+        "english": "to drink"
+      },
+      {
+        "german": "schlafen",
+        "english": "to sleep"
+      },
+      {
+        "german": "sprechen",
+        "english": "to speak"
+      },
+      {
+        "german": "denken",
+        "english": "to think"
+      },
+      {
+        "german": "lieben",
+        "english": "to love"
+      },
+      {
+        "german": "mögen",
+        "english": "to like"
+      },
+      {
+        "german": "wissen",
+        "english": "to know"
+      }
+    ]
+  },
+  {
+    "category": "Adjectives",
+    "words": [
+      {
+        "german": "groß",
+        "english": "big/tall"
+      },
+      {
+        "german": "klein",
+        "english": "small"
+      },
+      {
+        "german": "gut",
+        "english": "good"
+      },
+      {
+        "german": "schlecht",
+        "english": "bad"
+      },
+      {
+        "german": "schön",
+        "english": "beautiful"
+      },
+      {
+        "german": "hässlich",
+        "english": "ugly"
+      },
+      {
+        "german": "alt",
+        "english": "old"
+      },
+      {
+        "german": "neu",
+        "english": "new"
+      },
+      {
+        "german": "heiß",
+        "english": "hot"
+      },
+      {
+        "german": "kalt",
+        "english": "cold"
+      },
+      {
+        "german": "schnell",
+        "english": "fast"
+      },
+      {
+        "german": "langsam",
+        "english": "slow"
+      },
+      {
+        "german": "leicht",
+        "english": "easy/light"
+      },
+      {
+        "german": "schwer",
+        "english": "difficult/heavy"
+      }
+    ]
   }
 ]
